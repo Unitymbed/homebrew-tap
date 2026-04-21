@@ -1,25 +1,25 @@
 class Unitymbed < Formula
   desc "On-premise AI firmware assistant for ARM Cortex MCUs"
   homepage "https://github.com/Unitymbed/homebrew-tap"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.1/unitymbed-mac-arm64"
-      sha256 "d5c65553da8a3f87641fb34f84280c0ab47a74617d2e408e8b2fb4447d740a38"
+      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.2/unitymbed-mac-arm64"
+      sha256 "8de6cf3c6bab0b7588eb4d27f0854fe821c7202c91b762543a1fe422fab03090"
     else
-      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.1/unitymbed-mac-x64"
-      sha256 "02db4261eb33ffd0cf86c0d86d090813b6075f7570261658247fbb054ef24c3b"
+      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.2/unitymbed-mac-x64"
+      sha256 "a8e42328a22e1bbcdb7291d316ac5225c5cb7607ee6d3b4a24cede6af4887a3a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.1/unitymbed-linux-arm64"
-      sha256 "4c9b0a18cbec7bcb842cac6c214ba9139d5e486920b634e06cc98a6790b2368c"
+      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.2/unitymbed-linux-arm64"
+      sha256 "6bafffe135edab64edd9e3cdf09a2853dc53e9ec182989a05f5767fa787d4720"
     else
-      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.1/unitymbed-linux-x64"
-      sha256 "fb72b935d2328a972dc75afb170ca95b17940a5d53a789b717351f5261e74003"
+      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.2.2/unitymbed-linux-x64"
+      sha256 "ff0ec929d6c2427baceef50931ba94ebb52e9bb45f99727e7a60b8e026b83d90"
     end
   end
 
