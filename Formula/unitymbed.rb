@@ -6,10 +6,10 @@ class Unitymbed < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.1.0/unitymbed-mac-arm64"
-      sha256 "7f2436d07d2c4b8709252142007aaeb46b7356709091b0b442e237bf229205e0"
+      sha256 "85411fe3c8ebc72a6ae7d3edd69cd78426f6bc51d0ee4d41b300318246c7a2a5"
     else
       url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.1.0/unitymbed-mac-x64"
-      sha256 "67d5bff98c4efc1059aa46653832fed6b25b1e35effb50286a746964f5dcb294"
+      sha256 "211d3374a140e845da41fe50b96baf89ec4f6007f48906d6892537cc92689c84"
     end
   end
 
