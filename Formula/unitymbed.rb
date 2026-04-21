@@ -13,6 +13,16 @@ class Unitymbed < Formula
     end
   end
 
+  on_linux do
+    if Hardware::CPU.arm?
+      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.1.2/unitymbed-linux-arm64"
+      sha256 "5d5c4a60ae49f08eb031a2bd04b7ce646136a26f745fc33df2c511742f91b739"
+    else
+      url "https://github.com/Unitymbed/homebrew-tap/releases/download/v0.1.2/unitymbed-linux-x64"
+      sha256 "90b3201b31a4476d5e1ac785470b77f91ab340039e9e40bc847b23983d22a78b"
+    end
+  end
+
   def install
     bin.install Dir["unitymbed*"].first => "unitymbed"
   end
